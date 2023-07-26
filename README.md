@@ -3,11 +3,16 @@ This bash script simplifies the process of creating, enabling, disabling, and de
 
 
 
-**Prerequisites**
+
+
+## Prerequisites
 Before using this script, ensure that you have the following prerequisites installed on your system:
 
 Docker: Visit the official Docker website for installation instructions.
 Docker Compose: Follow the Docker Compose installation guide for installation.
+
+
+
 
 
 
@@ -43,7 +48,12 @@ To delete an existing WordPress site (stop containers and remove local files):
 
 __./wordpress_docker_manager.sh delete example.com__
 
+
+
+
 ### Note: Replace example.com with the desired domain name for your WordPress site.
+
+
 
 
 
@@ -60,6 +70,9 @@ create_wordpress_site(): Creates a new WordPress site using Docker Compose. It g
 enable_disable_site(): Enables or disables a WordPress site by starting or stopping the containers, respectively.
 
 delete_site(): Deletes a WordPress site by stopping containers and removing the associated docker-compose.yml file.
+
+
+
 
 
 
