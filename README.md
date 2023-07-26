@@ -12,7 +12,6 @@ Download the script file and save it as **wordpress_docker_manager.sh**.
 Make the script executable using the following command:
 
 __chmod +x wordpress_docker_manager.sh__
-
 Run the script with the appropriate subcommand and site name (if applicable):
 
 To create a new WordPress site with Docker:
