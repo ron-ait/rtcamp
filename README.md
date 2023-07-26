@@ -12,22 +12,27 @@ Download the script file and save it as **wordpress_docker_manager.sh**.
 Make the script executable using the following command:
 
 __chmod +x wordpress_docker_manager.sh__
+
 Run the script with the appropriate subcommand and site name (if applicable):
 
 To create a new WordPress site with Docker:
 
 __./wordpress_docker_manager.sh create example.com__
+
 This command will create a new WordPress site with the domain name example.com.
 
 To enable an existing WordPress site (start containers):
 
 __./wordpress_docker_manager.sh enable example.com__
+
 To disable an existing WordPress site (stop containers):
 
 __./wordpress_docker_manager.sh disable example.com__
+
 To delete an existing WordPress site (stop containers and remove local files):
 
 __./wordpress_docker_manager.sh delete example.com__
+
 Note: Replace example.com with the desired domain name for your WordPress site.
 
 Function Descriptions
